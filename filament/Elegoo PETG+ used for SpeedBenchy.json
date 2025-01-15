@@ -1,0 +1,49 @@
+{
+    "default_filament_colour": [
+        "#415DFF"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_max_speed": [
+        "40"
+    ],
+    "filament_flow_ratio": [
+        "0.9899"
+    ],
+    "filament_max_volumetric_speed": [
+        "30"
+    ],
+    "filament_settings_id": [
+        "Elegoo PETG+ used for SpeedBenchy"
+    ],
+    "filament_vendor": [
+        "Elegoo"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "80"
+    ],
+    "inherits": "Elegoo Generic PETG",
+    "is_custom_defined": "0",
+    "name": "Elegoo PETG+ used for SpeedBenchy",
+    "nozzle_temperature": [
+        "245"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "245"
+    ],
+    "nozzle_temperature_range_high": [
+        "255"
+    ],
+    "pressure_advance": [
+        "0.033"
+    ],
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "version": "2.1.0.0"
+}

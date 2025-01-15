@@ -1,0 +1,16 @@
+{
+    "filament_settings_id": [
+        "Elegoo Generic PETG - Copy"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "76"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "76"
+    ],
+    "inherits": "Elegoo Generic PETG",
+    "is_custom_defined": "0",
+    "name": "Elegoo Generic PETG - Copy",
+    "version": "2.2.0.0"
+}
