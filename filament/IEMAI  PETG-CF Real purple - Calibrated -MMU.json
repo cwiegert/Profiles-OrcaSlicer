@@ -17,11 +17,35 @@
     "fan_min_speed": [
         "30"
     ],
+    "filament_cooling_final_speed": [
+        "0"
+    ],
+    "filament_cooling_initial_speed": [
+        "0"
+    ],
+    "filament_cooling_moves": [
+        "0"
+    ],
     "filament_flow_ratio": [
         "0.9899"
     ],
+    "filament_loading_speed": [
+        "0"
+    ],
+    "filament_loading_speed_start": [
+        "0"
+    ],
     "filament_max_volumetric_speed": [
         "27"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+        "0"
+    ],
+    "filament_multitool_ramming_flow": [
+        "0"
+    ],
+    "filament_multitool_ramming_volume": [
+        "0"
     ],
     "filament_notes": [
         "real purple, not the matte finish"
@@ -30,10 +54,16 @@
         "0"
     ],
     "filament_settings_id": [
-        "IEMAI  PETG-CF Real purple - Calibrated"
+        "IEMAI  PETG-CF Real purple - Calibrated -MMU"
     ],
     "filament_type": [
         "PETG-CF"
+    ],
+    "filament_unloading_speed": [
+        "0"
+    ],
+    "filament_unloading_speed_start": [
+        "0"
     ],
     "filament_wipe": [
         "0"
@@ -41,7 +71,7 @@
     "from": "User",
     "inherits": "Elegoo Generic PETG",
     "is_custom_defined": "0",
-    "name": "IEMAI  PETG-CF Real purple - Calibrated",
+    "name": "IEMAI  PETG-CF Real purple - Calibrated -MMU",
     "nozzle_temperature_initial_layer": [
         "250"
     ],
