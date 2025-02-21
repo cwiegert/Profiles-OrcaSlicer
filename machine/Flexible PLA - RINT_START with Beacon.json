@@ -52,7 +52,7 @@
         "40",
         "12"
     ],
-    "machine_start_gcode": ";ELEGOO NEPTUNE 4 PRO\n\nM220 S50 ;Set the feed speed to 100%\nM221 S100 ;Set the flow rate to 100%\nM104 S200      ;  Set the extruder to an initial temperature of 200 just to get the hot end heated\nG90\nG28 ;home\nCustom_Print_Start BED_TEMP=[bed_temperature_initial_layer_single] EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_MESH=adaptive   TIMER=30 X_START=5 Y_START=5 X_END=150 Y_END=5          ; calling a custom print_start macro documentation in user_settings.cfg",
+    "machine_start_gcode": ";ELEGOO NEPTUNE 4 PRO\n\nM220 S50 ;Set the feed speed to 100%\nM221 S100 ;Set the flow rate to 100%\nM104 S200      ;  Set the extruder to an initial temperature of 200 just to get the hot end heated\nG90\nG28 ;home\nCustom_Print_Start BED_TEMP=[bed_temperature_initial_layer_single] EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_MESH=adaptive   TIMER=30 X_START=5 Y_START=13 X_END=150 Y_END=13          ; calling a custom print_start macro documentation in user_settings.cfg",
     "manual_filament_change": "1",
     "name": "Flexible PLA - RINT_START with Beacon",
     "print_host": "192.168.0.59",

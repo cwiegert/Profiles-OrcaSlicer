@@ -18,10 +18,10 @@
         "26"
     ],
     "filament_flow_ratio": [
-        "1.1"
+        "0.9989"
     ],
     "filament_max_volumetric_speed": [
-        "30"
+        "15"
     ],
     "filament_notes": [
         "offset was -.17 for the calbration settings.   May be where it needs to be for printing"
