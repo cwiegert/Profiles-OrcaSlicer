@@ -12,7 +12,7 @@
         "20"
     ],
     "fan_max_speed": [
-        "20"
+        "15"
     ],
     "fan_min_speed": [
         "30"
@@ -55,6 +55,9 @@
     ],
     "filament_settings_id": [
         "isanghu PETG-CF Brown - Calibrated -MMU"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=-0.03 MOVE=1 "
     ],
     "filament_type": [
         "PETG-CF"

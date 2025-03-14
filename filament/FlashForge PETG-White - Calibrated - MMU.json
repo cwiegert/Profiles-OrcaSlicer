@@ -21,7 +21,7 @@
         "0"
     ],
     "filament_flow_ratio": [
-        "0.9489"
+        "0.9889"
     ],
     "filament_loading_speed": [
         "0"
@@ -50,6 +50,9 @@
     "filament_settings_id": [
         "FlashForge PETG-White - Calibrated - MMU"
     ],
+    "filament_start_gcode": [
+        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=-0.015 MOVE=1 "
+    ],
     "filament_type": [
         "PETG-CF"
     ],
@@ -63,7 +66,7 @@
         "0"
     ],
     "filament_z_hop": [
-        "0.2"
+        "0.05"
     ],
     "filament_z_hop_types": [
         "Slope Lift"
@@ -79,7 +82,7 @@
         "250"
     ],
     "pressure_advance": [
-        "0.03"
+        "0.033"
     ],
     "reduce_fan_stop_start_freq": [
         "0"

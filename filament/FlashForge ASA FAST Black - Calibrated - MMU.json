@@ -56,6 +56,9 @@
     "filament_settings_id": [
         "FlashForge ASA FAST Black - Calibrated - MMU"
     ],
+    "filament_start_gcode": [
+        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=-0.02 MOVE=1 "
+    ],
     "filament_type": [
         "PETG-CF"
     ],
@@ -85,10 +88,10 @@
     "is_custom_defined": "0",
     "name": "FlashForge ASA FAST Black - Calibrated - MMU",
     "nozzle_temperature": [
-        "275"
+        "270"
     ],
     "nozzle_temperature_initial_layer": [
-        "275"
+        "270"
     ],
     "overhang_fan_speed": [
         "25"
@@ -103,7 +106,7 @@
         "0"
     ],
     "slow_down_layer_time": [
-        "15"
+        "12"
     ],
     "slow_down_min_speed": [
         "25"
@@ -113,6 +116,12 @@
     ],
     "temperature_vitrification": [
         "220"
+    ],
+    "textured_plate_temp": [
+        "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
     ],
     "version": "2.1.0.0"
 }

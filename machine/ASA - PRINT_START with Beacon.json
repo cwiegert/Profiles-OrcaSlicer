@@ -60,10 +60,10 @@
         "40",
         "12"
     ],
-    "machine_start_gcode": ";ELEGOO NEPTUNE 4 PRO\n\nM220 S50 ;Set the feed speed to 100%\nM221 S100 ;Set the flow rate to 100%\nM104 S180      ;  Set the extruder to an initial temperature of 180 just to get the hot end heated\nM140 S{bed_temperature_initial_layer_single}       ;  start the bed heading\nG90\n\n_SP_PRINT_START LANE=[initial_tool] TEMP=[nozzle_temperature_initial_layer]\n\n\nCustom_Print_Start BED_TEMP=[bed_temperature_initial_layer_single] EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_MESH=adaptive   TIMER=15 X_START=5 Y_START=13 X_END=80 Y_END=13 FIRST_LAYER=+0.04",
+    "machine_start_gcode": ";ELEGOO NEPTUNE 4 PRO\n\nM220 S50 ;Set the feed speed to 100%\nM221 S100 ;Set the flow rate to 100%\nM104 S180      ;  Set the extruder to an initial temperature of 180 just to get the hot end heated\nM140 S{bed_temperature_initial_layer_single}       ;  start the bed heading\nG90\n\n_SP_PRINT_START LANE=[initial_tool] TEMP=[nozzle_temperature_initial_layer]\n\n\nCustom_Print_Start BED_TEMP=[bed_temperature_initial_layer_single] EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_MESH=adaptive   TIMER=15 X_START=5 Y_START=13 X_END=80 Y_END=13 FIRST_LAYER=+0.02",
     "name": "ASA - PRINT_START with Beacon",
     "parking_pos_retraction": "0",
-    "print_host": "192.168.0.136",
+    "print_host": "threedprinter.local",
     "printable_area": [
         "0x0",
         "225x0",
