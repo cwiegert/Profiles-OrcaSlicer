@@ -7,7 +7,6 @@
     "enable_filament_ramming": "0",
     "extra_loading_move": "0",
     "fan_speedup_overhangs": "0",
-    "fan_speedup_time": "0.5",
     "from": "User",
     "inherits": "Elegoo Neptune 4 Pro (0.4 nozzle)",
     "is_custom_defined": "0",
@@ -21,11 +20,11 @@
         "10000"
     ],
     "machine_max_acceleration_x": [
-        "11100",
+        "15100",
         "10000"
     ],
     "machine_max_acceleration_y": [
-        "11100",
+        "15000",
         "10000"
     ],
     "machine_max_acceleration_z": [
@@ -48,20 +47,15 @@
         "15",
         "0.4"
     ],
-    "machine_max_speed_x": [
-        "350",
-        "500"
-    ],
-    "machine_max_speed_y": [
-        "350",
-        "500"
-    ],
     "machine_max_speed_z": [
         "40",
         "12"
     ],
     "machine_start_gcode": ";ELEGOO NEPTUNE 4 PRO\n\nM220 S50 ;Set the feed speed to 100%\nM221 S100 ;Set the flow rate to 100%\nM104 S180      ;  Set the extruder to an initial temperature of 180 just to get the hot end heated\nM140 S{bed_temperature_initial_layer_single}       ;  start the bed heading\nG90\n\n_SP_PRINT_START LANE=[initial_tool] TEMP=[nozzle_temperature_initial_layer]\n\nCustom_Print_Start BED_TEMP=[bed_temperature_initial_layer_single] EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_MESH=adaptive   TIMER=15 X_START=5 Y_START=13 X_END=80 Y_END=13 FIRST_LAYER=+0.00 Sensor=True",
     "machine_tool_change_time": "20",
+    "max_layer_height": [
+        "0.32"
+    ],
     "name": "My Goto Printer- Pico MMU",
     "parking_pos_retraction": "0",
     "print_host": "threedprinter.local",
@@ -92,6 +86,9 @@
     "support_multi_bed_types": "1",
     "thumbnails": "320x320/PNG, 160x160/PNG, 600x600/PNG",
     "version": "2.1.0.0",
+    "wipe": [
+        "0"
+    ],
     "wipe_distance": [
         "0.6"
     ],

@@ -1,18 +1,18 @@
 {
     "default_filament_colour": [
-        "#12354B"
-    ],
-    "dont_slow_down_outer_wall": [
-        "1"
+        "#EDF149"
     ],
     "enable_pressure_advance": [
         "1"
     ],
     "fan_cooling_layer_time": [
-        "25"
+        "20"
     ],
     "fan_max_speed": [
-        "15"
+        "20"
+    ],
+    "fan_min_speed": [
+        "0"
     ],
     "filament_cooling_final_speed": [
         "0"
@@ -23,8 +23,11 @@
     "filament_cooling_moves": [
         "0"
     ],
+    "filament_cost": [
+        "26"
+    ],
     "filament_flow_ratio": [
-        "0.9489"
+        "0.9998"
     ],
     "filament_loading_speed": [
         "0"
@@ -33,7 +36,7 @@
         "0"
     ],
     "filament_max_volumetric_speed": [
-        "26.5"
+        "18.8"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "0"
@@ -45,16 +48,16 @@
         "0"
     ],
     "filament_notes": [
-        "real purple, not the matte finish"
+        "offset was -.17 for the calbration settings.   May be where it needs to be for printing"
     ],
     "filament_retract_when_changing_layer": [
-        "0"
+        "1"
     ],
     "filament_settings_id": [
-        "FlashForge PETG-Burnt Titanium - Calibrated -MMU"
+        "Tinmorry PETG-GF Yellow - Calibrated -MMU"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=-0.01 MOVE=1 "
+        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=0.01 MOVE=1 "
     ],
     "filament_type": [
         "PETG-CF"
@@ -66,32 +69,29 @@
         "0"
     ],
     "filament_vendor": [
-        "FlashForge"
+        "Isounghu"
     ],
     "filament_wipe": [
-        "0"
-    ],
-    "filament_z_hop": [
-        "0.2"
-    ],
-    "filament_z_hop_types": [
-        "Slope Lift"
+        "1"
     ],
     "from": "User",
     "inherits": "Elegoo Generic PETG",
     "is_custom_defined": "0",
-    "name": "FlashForge PETG-Burnt Titanium - Calibrated -MMU",
-    "nozzle_temperature_initial_layer": [
-        "250"
+    "name": "Tinmorry PETG-GF Yellow - Calibrated -MMU",
+    "nozzle_temperature": [
+        "260"
     ],
-    "nozzle_temperature_range_high": [
-        "250"
+    "nozzle_temperature_initial_layer": [
+        "260"
     ],
     "overhang_fan_speed": [
-        "65"
+        "60"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
     ],
     "pressure_advance": [
-        "0.03"
+        "0.028"
     ],
     "reduce_fan_stop_start_freq": [
         "0"
@@ -103,7 +103,10 @@
         "25"
     ],
     "support_material_interface_fan_speed": [
-        "70"
+        "40"
+    ],
+    "temperature_vitrification": [
+        "220"
     ],
     "version": "2.1.0.0"
 }
