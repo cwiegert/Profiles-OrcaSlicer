@@ -60,7 +60,7 @@
         "Tinmorry PETG-GF Aqua Blue - Calibrated -MMU"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=0.00 MOVE=1 "
+        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=-0.02 MOVE=1 "
     ],
     "filament_type": [
         "PETG-CF"

@@ -30,7 +30,7 @@
         "26"
     ],
     "filament_flow_ratio": [
-        "0.8423"
+        "0.8775"
     ],
     "filament_loading_speed": [
         "0"
@@ -60,7 +60,7 @@
         "99.95%"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=0.00 MOVE=1 "
+        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=-0.030 MOVE=1 "
     ],
     "filament_type": [
         "PETG-CF"
@@ -79,10 +79,10 @@
     ],
     "from": "User",
     "hot_plate_temp": [
-        "100"
+        "105"
     ],
     "hot_plate_temp_initial_layer": [
-        "100"
+        "105"
     ],
     "inherits": "Elegoo Generic PETG",
     "is_custom_defined": "0",
@@ -98,9 +98,6 @@
     ],
     "overhang_fan_threshold": [
         "10%"
-    ],
-    "pressure_advance": [
-        "0.015"
     ],
     "reduce_fan_stop_start_freq": [
         "0"
@@ -118,10 +115,10 @@
         "220"
     ],
     "textured_plate_temp": [
-        "100"
+        "105"
     ],
     "textured_plate_temp_initial_layer": [
-        "100"
+        "105"
     ],
     "version": "2.1.0.0"
 }
