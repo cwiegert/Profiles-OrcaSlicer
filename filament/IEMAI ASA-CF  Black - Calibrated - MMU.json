@@ -1,18 +1,18 @@
 {
-    "default_filament_colour": [
-        "#EDF149"
+    "close_fan_the_first_x_layers": [
+        "0"
     ],
-    "dont_slow_down_outer_wall": [
-        "1"
+    "default_filament_colour": [
+        "#000002"
     ],
     "enable_pressure_advance": [
         "1"
     ],
     "fan_cooling_layer_time": [
-        "20"
+        "25"
     ],
     "fan_max_speed": [
-        "20"
+        "10"
     ],
     "fan_min_speed": [
         "5"
@@ -30,7 +30,7 @@
         "26"
     ],
     "filament_flow_ratio": [
-        "0.97"
+        "0.8046"
     ],
     "filament_loading_speed": [
         "0"
@@ -39,28 +39,28 @@
         "0"
     ],
     "filament_max_volumetric_speed": [
-        "19"
+        "23"
     ],
     "filament_minimal_purge_on_wipe_tower": [
-        "0"
-    ],
-    "filament_multitool_ramming_flow": [
-        "0"
-    ],
-    "filament_multitool_ramming_volume": [
         "0"
     ],
     "filament_notes": [
         "offset was -.17 for the calbration settings.   May be where it needs to be for printing"
     ],
     "filament_retract_when_changing_layer": [
-        "1"
+        "0"
     ],
     "filament_settings_id": [
-        "Tinmorry PETG-GF Yellow - Calibrated -MMU"
+        "IEMAI ASA-CF  Black - Calibrated - MMU"
+    ],
+    "filament_shrink": [
+        "99.95%"
+    ],
+    "filament_shrinkage_compensation_z": [
+        "99.95%"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=-0.04 MOVE=1 "
+        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=-0.025 MOVE=1 "
     ],
     "filament_type": [
         "PETG-CF"
@@ -75,29 +75,29 @@
         "Isounghu"
     ],
     "filament_wipe": [
-        "1"
+        "0"
     ],
     "from": "User",
+    "hot_plate_temp": [
+        "105"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "105"
+    ],
     "inherits": "Elegoo Generic PETG",
     "is_custom_defined": "0",
-    "name": "Tinmorry PETG-GF Yellow - Calibrated -MMU",
+    "name": "IEMAI ASA-CF  Black - Calibrated - MMU",
     "nozzle_temperature": [
-        "260"
+        "275"
     ],
     "nozzle_temperature_initial_layer": [
-        "260"
+        "275"
     ],
     "overhang_fan_speed": [
-        "70"
+        "20"
     ],
     "overhang_fan_threshold": [
         "10%"
-    ],
-    "pressure_advance": [
-        "0.04"
-    ],
-    "reduce_fan_stop_start_freq": [
-        "0"
     ],
     "slow_down_layer_time": [
         "6"
@@ -106,10 +106,16 @@
         "25"
     ],
     "support_material_interface_fan_speed": [
-        "40"
+        "10"
     ],
     "temperature_vitrification": [
         "220"
+    ],
+    "textured_plate_temp": [
+        "105"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "105"
     ],
     "version": "2.1.0.0"
 }

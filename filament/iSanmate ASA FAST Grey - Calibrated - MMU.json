@@ -30,7 +30,7 @@
         "26"
     ],
     "filament_flow_ratio": [
-        "0.8923"
+        "0.8723"
     ],
     "filament_loading_speed": [
         "0"
@@ -39,7 +39,7 @@
         "0"
     ],
     "filament_max_volumetric_speed": [
-        "26.8"
+        "24"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "0"
@@ -60,7 +60,7 @@
         "99.95%"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=-0.02 MOVE=1 "
+        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=-0.035 MOVE=1 "
     ],
     "filament_type": [
         "PETG-CF"
@@ -102,14 +102,11 @@
     "overhang_fan_threshold": [
         "10%"
     ],
-    "pressure_advance": [
-        "0.022"
-    ],
     "reduce_fan_stop_start_freq": [
         "0"
     ],
     "slow_down_layer_time": [
-        "5"
+        "0"
     ],
     "slow_down_min_speed": [
         "25"

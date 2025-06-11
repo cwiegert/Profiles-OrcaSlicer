@@ -30,7 +30,7 @@
         "26"
     ],
     "filament_flow_ratio": [
-        "0.9844"
+        "0.98"
     ],
     "filament_loading_speed": [
         "0"
@@ -39,7 +39,7 @@
         "0"
     ],
     "filament_max_volumetric_speed": [
-        "18.8"
+        "18.5"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "0"
@@ -59,8 +59,14 @@
     "filament_settings_id": [
         "Tinmorry PETG-GF Black - Calibrated -MMU"
     ],
+    "filament_shrink": [
+        "99.95%"
+    ],
+    "filament_shrinkage_compensation_z": [
+        "99.95%"
+    ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=0.01 MOVE=1 "
+        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=-0.02 MOVE=1 "
     ],
     "filament_type": [
         "PETG-CF"
@@ -88,13 +94,13 @@
         "260"
     ],
     "overhang_fan_speed": [
-        "70"
+        "50"
     ],
     "overhang_fan_threshold": [
         "10%"
     ],
     "pressure_advance": [
-        "0.023"
+        "0.04"
     ],
     "reduce_fan_stop_start_freq": [
         "0"

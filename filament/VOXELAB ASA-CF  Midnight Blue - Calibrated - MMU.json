@@ -12,10 +12,10 @@
         "25"
     ],
     "fan_max_speed": [
-        "5"
+        "15"
     ],
     "fan_min_speed": [
-        "8"
+        "5"
     ],
     "filament_cooling_final_speed": [
         "0"
@@ -30,7 +30,7 @@
         "26"
     ],
     "filament_flow_ratio": [
-        "0.8775"
+        "0.8595"
     ],
     "filament_loading_speed": [
         "0"
@@ -39,13 +39,13 @@
         "0"
     ],
     "filament_max_volumetric_speed": [
-        "26.8"
+        "20"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "0"
     ],
     "filament_notes": [
-        "offset was -.17 for the calbration settings.   May be where it needs to be for printing"
+        "5/15/25 - changed MVF to 13 from 19 to see if I can get better layer adhesion on the screw holes"
     ],
     "filament_retract_when_changing_layer": [
         "0"
@@ -60,7 +60,7 @@
         "99.95%"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=-0.030 MOVE=1 "
+        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=-0.02 MOVE=1 "
     ],
     "filament_type": [
         "PETG-CF"
@@ -78,6 +78,9 @@
         "0"
     ],
     "from": "User",
+    "full_fan_speed_layer": [
+        "4"
+    ],
     "hot_plate_temp": [
         "105"
     ],
@@ -99,11 +102,8 @@
     "overhang_fan_threshold": [
         "10%"
     ],
-    "reduce_fan_stop_start_freq": [
-        "0"
-    ],
     "slow_down_layer_time": [
-        "4"
+        "6"
     ],
     "slow_down_min_speed": [
         "25"

@@ -15,7 +15,7 @@
         "20"
     ],
     "fan_min_speed": [
-        "0"
+        "5"
     ],
     "filament_cooling_final_speed": [
         "0"
@@ -30,7 +30,7 @@
         "26"
     ],
     "filament_flow_ratio": [
-        "0.9998"
+        "0.98"
     ],
     "filament_loading_speed": [
         "0"
@@ -39,7 +39,7 @@
         "0"
     ],
     "filament_max_volumetric_speed": [
-        "18.8"
+        "19"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "0"
@@ -60,7 +60,7 @@
         "Tinmorry PETG-GF Aqua Blue - Calibrated -MMU"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=-0.02 MOVE=1 "
+        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=-0.04 MOVE=1 "
     ],
     "filament_type": [
         "PETG-CF"
@@ -72,7 +72,7 @@
         "0"
     ],
     "filament_vendor": [
-        "Isounghu"
+        "Tinmorry"
     ],
     "filament_wipe": [
         "1"
@@ -88,13 +88,13 @@
         "260"
     ],
     "overhang_fan_speed": [
-        "40"
+        "60"
     ],
     "overhang_fan_threshold": [
         "10%"
     ],
     "pressure_advance": [
-        "0.028"
+        "0.04"
     ],
     "reduce_fan_stop_start_freq": [
         "0"
