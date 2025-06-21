@@ -4,16 +4,19 @@ kept up to date and synched through rsync on the home mac, and autocommited to g
 
 01/14/2025
 
-✅ Step-by-Step: Run sync_orca_git.sh as a Launch Agent
+Step-by-Step: Run sync_orca_git.sh as a Launch Agent
 
 1. ✅ Make sure the script is executable
 If it’s not already executable:
-
+```
 chmod +x /path/to/sync_orca_git.sh
-2. ✅ Create a LaunchAgent .plist file
-Create a new plist file in ~/Library/LaunchAgents/ (this runs it only for your user):
+```
 
+2. ✅ Create a LaunchAgent .plist file
+Create a new plist file in ~/Library/LaunchAgents/ (this runs it only for your user)
+```
 nano ~/Library/LaunchAgents/com.user.sync_orca_git.plist
+```
 Paste the following contents (update the paths accordingly):
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -46,13 +49,21 @@ Paste the following contents (update the paths accordingly):
 3. ✅ Load the LaunchAgent
 To load and run the script as a background service:
 
+```
 launchctl load ~/Library/LaunchAgents/com.user.sync_orca_git.plist
+```
 To have it run on every login and on the schedule, make sure this loads automatically by keeping it in ~/Library/LaunchAgents/.
 
 4. 🔁 Manage the service
 Start it manually:
+```
 launchctl start com.user.sync_orca_git
+```
 Stop it:
+```
 launchctl stop com.user.sync_orca_git
+```
 Unload it:
+```
 launchctl unload ~/Library/LaunchAgents/com.user.sync_orca_git.plist
+```
