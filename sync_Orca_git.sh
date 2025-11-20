@@ -7,10 +7,10 @@ DESTINATION="/Users/corywiegert/SynologyDrive/OrcaSlicer-Configurations"
 
 
 # Sync files
-rsync -av --update "$SOURCE" "$DESTINATION"
+rsync -av --update "$SOURCE/" "$DESTINATION/"
 
 # Optional: Navigate to the Git repo, stage, and commit changes
 cd "$DESTINATION" || exit
 git add -A
 git commit -m "Auto-synced changes from parent directory"
-
+git push
