@@ -109,7 +109,7 @@
         "nil"
     ],
     "filament_max_volumetric_speed": [
-        "23"
+        "30"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "0"
@@ -224,6 +224,9 @@
     "internal_bridge_fan_speed": [
         "10"
     ],
+    "ironing_fan_speed": [
+        "-1"
+    ],
     "is_custom_defined": "0",
     "name": "Eryone ASA-CF  Elegoo Blue - Calibrated - MMU",
     "nozzle_temperature": [
@@ -248,7 +251,7 @@
         "0.4157"
     ],
     "pressure_advance": [
-        "0.03"
+        "0.025"
     ],
     "reduce_fan_stop_start_freq": [
         "1"
