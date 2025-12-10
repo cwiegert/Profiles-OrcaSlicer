@@ -50,9 +50,6 @@
     "filament_multitool_ramming_volume": [
         "0"
     ],
-    "filament_retract_before_wipe": [
-        "100%"
-    ],
     "filament_retract_when_changing_layer": [
         "1"
     ],
@@ -87,7 +84,7 @@
         "1"
     ],
     "filament_wipe_distance": [
-        "1"
+        "0.2"
     ],
     "filament_z_hop": [
         "0.25"

@@ -7,7 +7,7 @@
     ],
     "bed_mesh_probe_distance": "25,25",
     "best_object_pos": "10,10",
-    "change_filament_gcode": ";_SP_SET_PURGE PURGE=[first_flush_volume]",
+    "change_filament_gcode": ";_SP_SET_PURGE PURGE=[first_flush_volume]\nPAUSE",
     "cooling_tube_length": "0",
     "cooling_tube_retraction": "0",
     "deretraction_speed": [

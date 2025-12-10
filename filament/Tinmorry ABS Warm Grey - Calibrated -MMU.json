@@ -24,7 +24,7 @@
         "0"
     ],
     "close_fan_the_first_x_layers": [
-        "0"
+        "3"
     ],
     "compatible_printers": [],
     "compatible_printers_condition": "",
@@ -40,10 +40,10 @@
         "60"
     ],
     "default_filament_colour": [
-        "#4C1E13"
+        "#D8D6D4"
     ],
     "dont_slow_down_outer_wall": [
-        "0"
+        "1"
     ],
     "during_print_exhaust_fan_speed": [
         "70"
@@ -61,13 +61,13 @@
         "0"
     ],
     "fan_cooling_layer_time": [
-        "25"
+        "30"
     ],
     "fan_max_speed": [
-        "10"
+        "20"
     ],
     "fan_min_speed": [
-        "10"
+        "5"
     ],
     "filament_cooling_final_speed": [
         "0"
@@ -94,7 +94,7 @@
         "; filament end gcode\n"
     ],
     "filament_flow_ratio": [
-        "0.8923"
+        "0.929"
     ],
     "filament_is_support": [
         "0"
@@ -109,7 +109,7 @@
         "nil"
     ],
     "filament_max_volumetric_speed": [
-        "30"
+        "26"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "0"
@@ -118,10 +118,10 @@
         "0"
     ],
     "filament_multitool_ramming_flow": [
-        "10"
+        "0"
     ],
     "filament_multitool_ramming_volume": [
-        "10"
+        "0"
     ],
     "filament_notes": [
         "offset was -.17 for the calbration settings.   May be where it needs to be for printing"
@@ -160,13 +160,13 @@
         "nil"
     ],
     "filament_settings_id": [
-        "iSanghu ASA FAST BlackRed - Calibrated - MMU"
+        "Tinmorry ABS Warm Grey - Calibrated -MMU"
     ],
     "filament_shrink": [
-        "99.95%"
+        "99.67%"
     ],
     "filament_shrinkage_compensation_z": [
-        "99.95%"
+        "99.5%"
     ],
     "filament_soluble": [
         "0"
@@ -178,7 +178,7 @@
         "0"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=0.04 MOVE=1 \nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=65"
+        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=0.025 MOVE=1 \nET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
     ],
     "filament_toolchange_delay": [
         "0"
@@ -193,7 +193,7 @@
         "0"
     ],
     "filament_vendor": [
-        "Isounghu"
+        "Tinmorry"
     ],
     "filament_wipe": [
         "0"
@@ -209,7 +209,7 @@
     ],
     "from": "User",
     "full_fan_speed_layer": [
-        "1"
+        "0"
     ],
     "hot_plate_temp": [
         "100"
@@ -228,12 +228,12 @@
         "-1"
     ],
     "is_custom_defined": "0",
-    "name": "iSanghu ASA FAST BlackRed - Calibrated - MMU",
+    "name": "Tinmorry ABS Warm Grey - Calibrated -MMU",
     "nozzle_temperature": [
-        "275"
+        "255"
     ],
     "nozzle_temperature_initial_layer": [
-        "275"
+        "255"
     ],
     "nozzle_temperature_range_high": [
         "260"
@@ -242,7 +242,7 @@
         "220"
     ],
     "overhang_fan_speed": [
-        "95"
+        "80"
     ],
     "overhang_fan_threshold": [
         "10%"
@@ -263,7 +263,7 @@
         "1"
     ],
     "slow_down_layer_time": [
-        "5"
+        "3"
     ],
     "slow_down_min_speed": [
         "25"
@@ -275,7 +275,7 @@
         "70"
     ],
     "support_material_interface_fan_speed": [
-        "10"
+        "40"
     ],
     "temperature_vitrification": [
         "220"
