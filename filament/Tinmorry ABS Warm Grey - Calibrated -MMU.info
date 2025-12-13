@@ -1,5 +1,17 @@
+<<<<<<< HEAD
+sync_info = update
+user_id = 
+setting_id = 
+base_id = GFSA04
+updated_time = 1763663411
+=======
 sync_info = 
 user_id = 3054054929
 setting_id = PFUS32b4b864293021
 base_id = GFSG99
+<<<<<<< HEAD
 updated_time = 1765613088
+=======
+updated_time = 1765186618
+>>>>>>> 324a391a7a5a4ed52c5f17ad0757fa039a8ced72
+>>>>>>> 8bc3f1f70d3af7e63d46f28688364f314bafcce1

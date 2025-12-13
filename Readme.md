@@ -19,31 +19,25 @@ nano ~/Library/LaunchAgents/com.user.sync_orca_git.plist
 ```
 Paste the following contents (update the paths accordingly):
 
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
-"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-    <key>Label</key>
-    <string>com.user.sync_orca_git</string>
-
+ ```
     <key>ProgramArguments</key>
     <array>
-        <string>/bin/bash</string>
-        <string>/path/to/sync_orca_git.sh</string>
+       <string>/bin/bash</string>
+       <string>/Users/corywiegert/sync_orca_git.sh</string>
     </array>
 
     <key>StartInterval</key>
-    <integer>600</integer> <!-- Runs every 10 minutes (600 seconds) -->
+      <integer>600</integer>
 
     <key>RunAtLoad</key>
-    <true/>
+      <true/>
 
     <key>StandardOutPath</key>
-    <string>/tmp/sync_orca_git.out</string>
-    
+      <string>/Users/corywiegert/Logs/sync_orca_git.out</string>
+
     <key>StandardErrorPath</key>
-    <string>/tmp/sync_orca_git.err</string>
+      <string>/Users/corywiegert/Logs/sync_orca_git.err</string>
+ ```
 </dict>
 </plist>
 3. ✅ Load the LaunchAgent

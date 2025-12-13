@@ -40,7 +40,7 @@
         "60"
     ],
     "default_filament_colour": [
-        "#791E13"
+        "#4C1E13"
     ],
     "dont_slow_down_outer_wall": [
         "0"
@@ -178,7 +178,11 @@
         "0"
     ],
     "filament_start_gcode": [
+<<<<<<< HEAD
+        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=0.04 MOVE=1 \nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=65"
+=======
         "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=0.02 MOVE=1 \nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
+>>>>>>> 324a391a7a5a4ed52c5f17ad0757fa039a8ced72
     ],
     "filament_toolchange_delay": [
         "0"

@@ -12,10 +12,17 @@
         "1"
     ],
     "fan_max_speed": [
+<<<<<<< HEAD
         "80"
     ],
     "fan_min_speed": [
         "80"
+=======
+        "20"
+    ],
+    "fan_min_speed": [
+        "20"
+>>>>>>> 8bc3f1f70d3af7e63d46f28688364f314bafcce1
     ],
     "filament_cooling_final_speed": [
         "0"
@@ -39,7 +46,11 @@
         "0"
     ],
     "filament_max_volumetric_speed": [
+<<<<<<< HEAD
         "27"
+=======
+        "26"
+>>>>>>> 8bc3f1f70d3af7e63d46f28688364f314bafcce1
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "0"
@@ -69,7 +80,11 @@
         "99.5%"
     ],
     "filament_start_gcode": [
+<<<<<<< HEAD
         "; Filament gcode\nSET_GCODE_OFFSET Z_ADJUST=0.080 MOVE=1 \nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
+=======
+        "; Filament gcode\nSET_GCODE_OFFSET Z_ADJUST=0.050\n MOVE=1 \nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=65"
+>>>>>>> 8bc3f1f70d3af7e63d46f28688364f314bafcce1
     ],
     "filament_unloading_speed": [
         "0"
@@ -99,10 +114,17 @@
     ],
     "name": "PAramount 3D Black Cherry ABS - Callibrated - MMU",
     "nozzle_temperature": [
+<<<<<<< HEAD
         "260"
     ],
     "nozzle_temperature_initial_layer": [
         "265"
+=======
+        "255"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "255"
+>>>>>>> 8bc3f1f70d3af7e63d46f28688364f314bafcce1
     ],
     "nozzle_temperature_range_high": [
         "280"
@@ -111,7 +133,11 @@
         "245"
     ],
     "overhang_fan_speed": [
+<<<<<<< HEAD
         "80"
+=======
+        "85"
+>>>>>>> 8bc3f1f70d3af7e63d46f28688364f314bafcce1
     ],
     "version": "2.3.0.1"
 }

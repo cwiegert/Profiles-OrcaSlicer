@@ -2,4 +2,8 @@ sync_info =
 user_id = 3054054929
 setting_id = PPUS124cc94b41281a
 base_id = GP004
+<<<<<<< HEAD
+updated_time = 1765188319
+=======
 updated_time = 1765252309
+>>>>>>> 324a391a7a5a4ed52c5f17ad0757fa039a8ced72

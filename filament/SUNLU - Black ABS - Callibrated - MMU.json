@@ -94,6 +94,15 @@
     ],
     "overhang_fan_speed": [
         "90"
+<<<<<<< HEAD
+=======
+    ],
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "slow_down_layer_time": [
+        "10"
+>>>>>>> 8bc3f1f70d3af7e63d46f28688364f314bafcce1
     ],
     "reduce_fan_stop_start_freq": [
         "0"

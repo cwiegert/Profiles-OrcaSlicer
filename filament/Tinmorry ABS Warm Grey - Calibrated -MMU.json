@@ -61,6 +61,15 @@
         "0"
     ],
     "fan_cooling_layer_time": [
+<<<<<<< HEAD
+        "30"
+    ],
+    "fan_max_speed": [
+        "20"
+    ],
+    "fan_min_speed": [
+        "5"
+=======
         "20"
     ],
     "fan_max_speed": [
@@ -68,6 +77,7 @@
     ],
     "fan_min_speed": [
         "70"
+>>>>>>> 324a391a7a5a4ed52c5f17ad0757fa039a8ced72
     ],
     "filament_cooling_final_speed": [
         "0"
@@ -109,7 +119,11 @@
         "nil"
     ],
     "filament_max_volumetric_speed": [
+<<<<<<< HEAD
+        "26"
+=======
         "30"
+>>>>>>> 324a391a7a5a4ed52c5f17ad0757fa039a8ced72
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "0"
@@ -163,10 +177,17 @@
         "Tinmorry ABS Warm Grey - Calibrated -MMU"
     ],
     "filament_shrink": [
+<<<<<<< HEAD
+        "99.67%"
+    ],
+    "filament_shrinkage_compensation_z": [
+        "99.5%"
+=======
         "100%"
     ],
     "filament_shrinkage_compensation_z": [
         "100%"
+>>>>>>> 324a391a7a5a4ed52c5f17ad0757fa039a8ced72
     ],
     "filament_soluble": [
         "0"
@@ -242,7 +263,11 @@
         "220"
     ],
     "overhang_fan_speed": [
+<<<<<<< HEAD
+        "80"
+=======
         "70"
+>>>>>>> 324a391a7a5a4ed52c5f17ad0757fa039a8ced72
     ],
     "overhang_fan_threshold": [
         "10%"
@@ -263,7 +288,11 @@
         "1"
     ],
     "slow_down_layer_time": [
+<<<<<<< HEAD
+        "3"
+=======
         "0"
+>>>>>>> 324a391a7a5a4ed52c5f17ad0757fa039a8ced72
     ],
     "slow_down_min_speed": [
         "25"
