@@ -6,13 +6,16 @@
         "1"
     ],
     "default_filament_colour": [
-        "#7E0014"
+        "#72242A"
     ],
     "dont_slow_down_outer_wall": [
         "1"
     ],
     "enable_pressure_advance": [
         "1"
+    ],
+    "eng_plate_temp": [
+        "80"
     ],
     "fan_max_speed": [
         "15"
@@ -33,7 +36,7 @@
         "85"
     ],
     "filament_flow_ratio": [
-        "0.9989"
+        "0.9487"
     ],
     "filament_loading_speed": [
         "0"
@@ -42,7 +45,7 @@
         "0"
     ],
     "filament_max_volumetric_speed": [
-        "27"
+        "25"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "0"
@@ -63,7 +66,7 @@
         "150"
     ],
     "filament_settings_id": [
-        "PAramount 3D Black Cherry ABS - Callibrated - MMU"
+        "Paramount 3D Iron Red ABS - Callibrated - MMU"
     ],
     "filament_shrink": [
         "99.67%"
@@ -72,7 +75,7 @@
         "99.5%"
     ],
     "filament_start_gcode": [
-        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.03\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
+        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.005\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
     ],
     "filament_unloading_speed": [
         "0"
@@ -100,12 +103,12 @@
     "internal_bridge_fan_speed": [
         "40"
     ],
-    "name": "PAramount 3D Black Cherry ABS - Callibrated - MMU",
+    "name": "Paramount 3D Iron Red ABS - Callibrated - MMU",
     "nozzle_temperature": [
-        "272"
+        "275"
     ],
     "nozzle_temperature_initial_layer": [
-        "272"
+        "275"
     ],
     "nozzle_temperature_range_high": [
         "280"

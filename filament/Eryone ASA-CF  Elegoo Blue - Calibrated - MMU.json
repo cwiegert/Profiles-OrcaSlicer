@@ -67,7 +67,7 @@
         "10"
     ],
     "fan_min_speed": [
-        "5"
+        "10"
     ],
     "filament_cooling_final_speed": [
         "0"
@@ -94,7 +94,7 @@
         "; filament end gcode\n"
     ],
     "filament_flow_ratio": [
-        "0.8595"
+        "0.9899"
     ],
     "filament_is_support": [
         "0"
@@ -178,7 +178,7 @@
         "0"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=-0.025 MOVE=1 "
+        "; filament start gcode\nSET_FILAMENT_OFFSET OFFSET=0.00\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
     ],
     "filament_toolchange_delay": [
         "0"
@@ -209,13 +209,13 @@
     ],
     "from": "User",
     "full_fan_speed_layer": [
-        "4"
+        "2"
     ],
     "hot_plate_temp": [
-        "105"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "105"
+        "100"
     ],
     "idle_temperature": [
         "0"
@@ -224,13 +224,16 @@
     "internal_bridge_fan_speed": [
         "10"
     ],
+    "ironing_fan_speed": [
+        "-1"
+    ],
     "is_custom_defined": "0",
     "name": "Eryone ASA-CF  Elegoo Blue - Calibrated - MMU",
     "nozzle_temperature": [
-        "275"
+        "280"
     ],
     "nozzle_temperature_initial_layer": [
-        "275"
+        "280"
     ],
     "nozzle_temperature_range_high": [
         "260"
@@ -239,7 +242,7 @@
         "220"
     ],
     "overhang_fan_speed": [
-        "20"
+        "40"
     ],
     "overhang_fan_threshold": [
         "10%"
@@ -248,10 +251,10 @@
         "0.4157"
     ],
     "pressure_advance": [
-        "0.03"
+        "0.025"
     ],
     "reduce_fan_stop_start_freq": [
-        "1"
+        "0"
     ],
     "required_nozzle_HRC": [
         "3"
@@ -284,10 +287,10 @@
         "40"
     ],
     "textured_plate_temp": [
-        "105"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
-        "105"
+        "100"
     ],
     "version": "2.1.0.0"
 }

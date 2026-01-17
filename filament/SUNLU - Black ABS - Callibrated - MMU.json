@@ -27,7 +27,7 @@
         "0"
     ],
     "filament_flow_ratio": [
-        "0.8797"
+        "0.9979"
     ],
     "filament_loading_speed": [
         "0"
@@ -36,7 +36,7 @@
         "0"
     ],
     "filament_max_volumetric_speed": [
-        "40"
+        "35"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "0"
@@ -60,7 +60,7 @@
         "99.5%"
     ],
     "filament_start_gcode": [
-        "; Filament gcode\nSET_GCODE_OFFSET Z_ADJUST=0.075 MOVE=1 \nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=65"
+        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.015\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
     ],
     "filament_unloading_speed": [
         "0"
@@ -81,10 +81,10 @@
     ],
     "name": "SUNLU - Black ABS - Callibrated - MMU",
     "nozzle_temperature": [
-        "265"
+        "272"
     ],
     "nozzle_temperature_initial_layer": [
-        "270"
+        "272"
     ],
     "nozzle_temperature_range_high": [
         "280"
@@ -93,19 +93,13 @@
         "260"
     ],
     "overhang_fan_speed": [
-        "90"
-<<<<<<< HEAD
-=======
+        "40"
     ],
     "reduce_fan_stop_start_freq": [
         "0"
     ],
     "slow_down_layer_time": [
         "10"
->>>>>>> 8bc3f1f70d3af7e63d46f28688364f314bafcce1
-    ],
-    "reduce_fan_stop_start_freq": [
-        "0"
     ],
     "version": "2.3.0.1"
 }

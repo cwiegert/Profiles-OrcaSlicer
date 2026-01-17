@@ -64,10 +64,10 @@
         "25"
     ],
     "fan_max_speed": [
-        "10"
+        "15"
     ],
     "fan_min_speed": [
-        "5"
+        "15"
     ],
     "filament_cooling_final_speed": [
         "0"
@@ -109,7 +109,7 @@
         "nil"
     ],
     "filament_max_volumetric_speed": [
-        "26.8"
+        "30"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "0"
@@ -178,11 +178,7 @@
         "0"
     ],
     "filament_start_gcode": [
-<<<<<<< HEAD
-        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=0.04 MOVE=1 \nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=65"
-=======
-        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=0.02 MOVE=1 \nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
->>>>>>> 324a391a7a5a4ed52c5f17ad0757fa039a8ced72
+        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=0.08 MOVE=1 \nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
     ],
     "filament_toolchange_delay": [
         "0"
@@ -234,10 +230,10 @@
     "is_custom_defined": "0",
     "name": "iSanghu ASA FAST BlackRed - Calibrated - MMU",
     "nozzle_temperature": [
-        "275"
+        "265"
     ],
     "nozzle_temperature_initial_layer": [
-        "275"
+        "265"
     ],
     "nozzle_temperature_range_high": [
         "260"
@@ -246,7 +242,7 @@
         "220"
     ],
     "overhang_fan_speed": [
-        "25"
+        "95"
     ],
     "overhang_fan_threshold": [
         "10%"

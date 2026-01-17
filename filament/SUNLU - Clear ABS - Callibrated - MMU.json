@@ -6,19 +6,16 @@
         "1"
     ],
     "default_filament_colour": [
-        "#7E0014"
-    ],
-    "dont_slow_down_outer_wall": [
-        "1"
+        "#FDF8F8"
     ],
     "enable_pressure_advance": [
         "1"
     ],
     "fan_max_speed": [
-        "15"
+        "10"
     ],
     "fan_min_speed": [
-        "15"
+        "10"
     ],
     "filament_cooling_final_speed": [
         "0"
@@ -29,11 +26,8 @@
     "filament_cooling_moves": [
         "0"
     ],
-    "filament_deretraction_speed": [
-        "85"
-    ],
     "filament_flow_ratio": [
-        "0.9989"
+        "0.9979"
     ],
     "filament_loading_speed": [
         "0"
@@ -42,7 +36,7 @@
         "0"
     ],
     "filament_max_volumetric_speed": [
-        "27"
+        "35"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "0"
@@ -54,16 +48,10 @@
         "0"
     ],
     "filament_retract_when_changing_layer": [
-        "1"
-    ],
-    "filament_retraction_length": [
-        "2"
-    ],
-    "filament_retraction_speed": [
-        "150"
+        "0"
     ],
     "filament_settings_id": [
-        "PAramount 3D Black Cherry ABS - Callibrated - MMU"
+        "SUNLU - Clear ABS - Callibrated - MMU"
     ],
     "filament_shrink": [
         "99.67%"
@@ -72,7 +60,7 @@
         "99.5%"
     ],
     "filament_start_gcode": [
-        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.03\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
+        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.005\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
     ],
     "filament_unloading_speed": [
         "0"
@@ -84,40 +72,37 @@
         "Sunlu"
     ],
     "filament_wipe": [
-        "1"
-    ],
-    "filament_wipe_distance": [
-        "0.4"
-    ],
-    "filament_z_hop": [
-        "0.25"
-    ],
-    "filament_z_hop_types": [
-        "Slope Lift"
+        "0"
     ],
     "from": "User",
     "inherits": "Generic ABS @Elegoo",
     "internal_bridge_fan_speed": [
-        "40"
+        "35"
     ],
-    "name": "PAramount 3D Black Cherry ABS - Callibrated - MMU",
+    "name": "SUNLU - Clear ABS - Callibrated - MMU",
     "nozzle_temperature": [
-        "272"
+        "270"
     ],
     "nozzle_temperature_initial_layer": [
-        "272"
+        "270"
     ],
     "nozzle_temperature_range_high": [
         "280"
     ],
     "nozzle_temperature_range_low": [
-        "245"
+        "260"
     ],
     "overhang_fan_speed": [
-        "75"
+        "35"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
     ],
     "reduce_fan_stop_start_freq": [
         "0"
+    ],
+    "slow_down_layer_time": [
+        "10"
     ],
     "version": "2.3.0.1"
 }

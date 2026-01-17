@@ -24,7 +24,7 @@
         "0"
     ],
     "close_fan_the_first_x_layers": [
-        "3"
+        "2"
     ],
     "compatible_printers": [],
     "compatible_printers_condition": "",
@@ -61,23 +61,13 @@
         "0"
     ],
     "fan_cooling_layer_time": [
-<<<<<<< HEAD
-        "30"
+        "20"
     ],
     "fan_max_speed": [
         "20"
     ],
     "fan_min_speed": [
-        "5"
-=======
         "20"
-    ],
-    "fan_max_speed": [
-        "70"
-    ],
-    "fan_min_speed": [
-        "70"
->>>>>>> 324a391a7a5a4ed52c5f17ad0757fa039a8ced72
     ],
     "filament_cooling_final_speed": [
         "0"
@@ -104,7 +94,7 @@
         "; filament end gcode\n"
     ],
     "filament_flow_ratio": [
-        "0.929"
+        "0.9989"
     ],
     "filament_is_support": [
         "0"
@@ -119,11 +109,7 @@
         "nil"
     ],
     "filament_max_volumetric_speed": [
-<<<<<<< HEAD
-        "26"
-=======
-        "30"
->>>>>>> 324a391a7a5a4ed52c5f17ad0757fa039a8ced72
+        "25"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "0"
@@ -177,17 +163,10 @@
         "Tinmorry ABS Warm Grey - Calibrated -MMU"
     ],
     "filament_shrink": [
-<<<<<<< HEAD
         "99.67%"
     ],
     "filament_shrinkage_compensation_z": [
         "99.5%"
-=======
-        "100%"
-    ],
-    "filament_shrinkage_compensation_z": [
-        "100%"
->>>>>>> 324a391a7a5a4ed52c5f17ad0757fa039a8ced72
     ],
     "filament_soluble": [
         "0"
@@ -199,13 +178,13 @@
         "0"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_GCODE_OFFSET Z_ADJUST=0.025 MOVE=1 \nET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
+        "; filament start gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.02\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
     ],
     "filament_toolchange_delay": [
         "0"
     ],
     "filament_type": [
-        "PETG-CF"
+        "ABS"
     ],
     "filament_unloading_speed": [
         "0"
@@ -251,10 +230,10 @@
     "is_custom_defined": "0",
     "name": "Tinmorry ABS Warm Grey - Calibrated -MMU",
     "nozzle_temperature": [
-        "260"
+        "272"
     ],
     "nozzle_temperature_initial_layer": [
-        "265"
+        "272"
     ],
     "nozzle_temperature_range_high": [
         "260"
@@ -263,11 +242,7 @@
         "220"
     ],
     "overhang_fan_speed": [
-<<<<<<< HEAD
-        "80"
-=======
-        "70"
->>>>>>> 324a391a7a5a4ed52c5f17ad0757fa039a8ced72
+        "75"
     ],
     "overhang_fan_threshold": [
         "10%"
@@ -288,11 +263,7 @@
         "1"
     ],
     "slow_down_layer_time": [
-<<<<<<< HEAD
-        "3"
-=======
-        "0"
->>>>>>> 324a391a7a5a4ed52c5f17ad0757fa039a8ced72
+        "5"
     ],
     "slow_down_min_speed": [
         "25"
