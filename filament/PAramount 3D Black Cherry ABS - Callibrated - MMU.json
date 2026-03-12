@@ -97,9 +97,6 @@
     ],
     "from": "User",
     "inherits": "Generic ABS @Elegoo",
-    "internal_bridge_fan_speed": [
-        "40"
-    ],
     "name": "PAramount 3D Black Cherry ABS - Callibrated - MMU",
     "nozzle_temperature": [
         "272"
@@ -114,10 +111,13 @@
         "245"
     ],
     "overhang_fan_speed": [
-        "75"
+        "90"
     ],
     "reduce_fan_stop_start_freq": [
         "0"
+    ],
+    "slow_down_layer_time": [
+        "5"
     ],
     "version": "2.3.0.1"
 }

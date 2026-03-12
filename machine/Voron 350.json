@@ -75,8 +75,8 @@
     "print_host": "voronpi.local:81",
     "printable_area": [
         "0x0",
-        "350x0",
-        "350x350",
+        "347x0",
+        "347x350",
         "0x350"
     ],
     "printable_height": "350",

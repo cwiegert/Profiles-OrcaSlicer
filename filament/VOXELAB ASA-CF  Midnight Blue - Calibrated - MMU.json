@@ -64,10 +64,10 @@
         "25"
     ],
     "fan_max_speed": [
-        "10"
+        "5"
     ],
     "fan_min_speed": [
-        "10"
+        "5"
     ],
     "filament_cooling_final_speed": [
         "0"
@@ -163,10 +163,10 @@
         "VOXELAB ASA-CF  Midnight Blue - Calibrated - MMU"
     ],
     "filament_shrink": [
-        "99.95%"
+        "99.75%"
     ],
     "filament_shrinkage_compensation_z": [
-        "99.95%"
+        "99.37%"
     ],
     "filament_soluble": [
         "0"
@@ -178,7 +178,7 @@
         "0"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_FILAMENT_OFFSET OFFSET=0.000\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=50"
+        "; filament start gcode\nSET_FILAMENT_OFFSET OFFSET=0.02\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=55"
     ],
     "filament_toolchange_delay": [
         "0"
@@ -242,7 +242,7 @@
         "220"
     ],
     "overhang_fan_speed": [
-        "40"
+        "80"
     ],
     "overhang_fan_threshold": [
         "10%"
