@@ -12,10 +12,10 @@
         "1"
     ],
     "fan_max_speed": [
-        "15"
+        "10"
     ],
     "fan_min_speed": [
-        "15"
+        "10"
     ],
     "filament_cooling_final_speed": [
         "0"
@@ -60,7 +60,7 @@
         "99.5%"
     ],
     "filament_start_gcode": [
-        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.015\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
+        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.06\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
     ],
     "filament_unloading_speed": [
         "0"
@@ -76,9 +76,6 @@
     ],
     "from": "User",
     "inherits": "Generic ABS @Elegoo",
-    "internal_bridge_fan_speed": [
-        "40"
-    ],
     "name": "SUNLU - Black ABS - Callibrated - MMU",
     "nozzle_temperature": [
         "272"
@@ -93,7 +90,7 @@
         "260"
     ],
     "overhang_fan_speed": [
-        "40"
+        "80"
     ],
     "reduce_fan_stop_start_freq": [
         "0"

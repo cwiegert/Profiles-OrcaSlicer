@@ -38,7 +38,6 @@
     "post_process": [
         "\"/Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12\" \"/usr/local/bin/ElegooNeptuneThumbnailPrusaMod-main/thumbnail.py\""
     ],
-    "precise_outer_wall": "1",
     "print_settings_id": "Slowing down for Elegoo cube",
     "raft_first_layer_density": "75%",
     "raft_first_layer_expansion": "0.5",

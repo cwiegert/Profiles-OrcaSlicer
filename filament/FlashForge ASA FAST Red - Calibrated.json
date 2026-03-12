@@ -79,10 +79,10 @@
         "4"
     ],
     "filament_cost": [
-        "26"
+        "22"
     ],
     "filament_density": [
-        "1.27"
+        "1.04"
     ],
     "filament_deretraction_speed": [
         "nil"
@@ -163,10 +163,10 @@
         "FlashForge ASA FAST Red - Calibrated"
     ],
     "filament_shrink": [
-        "98.5%"
+        "99%"
     ],
     "filament_shrinkage_compensation_z": [
-        "98.5%"
+        "99%"
     ],
     "filament_soluble": [
         "0"
@@ -178,7 +178,7 @@
         "0"
     ],
     "filament_start_gcode": [
-        "; Filament gcode\nSET_FILAMENT_OFFSET OFFSET=0.015\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
+        "; Filament gcode\nSET_FILAMENT_OFFSET OFFSET=0.01\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=50"
     ],
     "filament_toolchange_delay": [
         "0"
@@ -222,7 +222,7 @@
     ],
     "inherits": "Elegoo Generic PETG",
     "internal_bridge_fan_speed": [
-        "-1"
+        "60"
     ],
     "ironing_fan_speed": [
         "-1"
@@ -242,10 +242,10 @@
         "220"
     ],
     "overhang_fan_speed": [
-        "70"
+        "100"
     ],
     "overhang_fan_threshold": [
-        "10%"
+        "25%"
     ],
     "pellet_flow_coefficient": [
         "0.4157"
@@ -287,10 +287,10 @@
         "40"
     ],
     "textured_plate_temp": [
-        "80"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
-        "80"
+        "100"
     ],
     "version": "2.1.0.0"
 }

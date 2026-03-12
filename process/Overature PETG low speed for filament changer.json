@@ -1,7 +1,7 @@
 {
     "accel_to_decel_enable": "0",
     "bottom_shell_thickness": "0.6",
-    "bottom_surface_pattern": "zig-zag",
+    "bottom_surface_pattern": "rectilinear",
     "bridge_acceleration": "8000",
     "bridge_no_support": "1",
     "brim_type": "no_brim",
@@ -25,7 +25,7 @@
     "inner_wall_line_width": "0.5",
     "inner_wall_speed": "100",
     "internal_solid_infill_acceleration": "8000",
-    "internal_solid_infill_pattern": "zig-zag",
+    "internal_solid_infill_pattern": "rectilinear",
     "internal_solid_infill_speed": "100",
     "is_custom_defined": "0",
     "line_width": "0.5",
@@ -37,7 +37,6 @@
     "post_process": [
         "\"/Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12\" \"/usr/local/bin/ElegooNeptuneThumbnailPrusaMod-main/thumbnail.py\""
     ],
-    "precise_outer_wall": "1",
     "print_settings_id": "Overature PETG low speed for filament changer",
     "raft_first_layer_density": "25%",
     "raft_first_layer_expansion": "0.5",
@@ -67,7 +66,7 @@
     "support_type": "normal(manual)",
     "top_surface_acceleration": "8000",
     "top_surface_jerk": "15",
-    "top_surface_pattern": "zig-zag",
+    "top_surface_pattern": "rectilinear",
     "top_surface_speed": "100",
     "travel_acceleration": "4000",
     "travel_jerk": "15",
