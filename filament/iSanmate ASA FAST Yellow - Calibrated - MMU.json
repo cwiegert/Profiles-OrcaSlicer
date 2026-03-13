@@ -230,10 +230,10 @@
     "is_custom_defined": "0",
     "name": "iSanmate ASA FAST Yellow - Calibrated - MMU",
     "nozzle_temperature": [
-        "275"
+        "270"
     ],
     "nozzle_temperature_initial_layer": [
-        "275"
+        "270"
     ],
     "nozzle_temperature_range_high": [
         "260"

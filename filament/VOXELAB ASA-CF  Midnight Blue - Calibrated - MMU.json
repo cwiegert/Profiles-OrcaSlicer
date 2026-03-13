@@ -230,10 +230,10 @@
     "is_custom_defined": "0",
     "name": "VOXELAB ASA-CF  Midnight Blue - Calibrated - MMU",
     "nozzle_temperature": [
-        "265"
+        "270"
     ],
     "nozzle_temperature_initial_layer": [
-        "265"
+        "270"
     ],
     "nozzle_temperature_range_high": [
         "260"
