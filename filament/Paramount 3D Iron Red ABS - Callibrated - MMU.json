@@ -21,7 +21,7 @@
         "25"
     ],
     "fan_max_speed": [
-        "10"
+        "15"
     ],
     "fan_min_speed": [
         "10"
@@ -78,7 +78,7 @@
         "99.95%"
     ],
     "filament_start_gcode": [
-        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.070\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=55"
+        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.055\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=50"
     ],
     "filament_unloading_speed": [
         "0"
@@ -104,14 +104,15 @@
     "from": "User",
     "inherits": "Generic ABS @Elegoo",
     "internal_bridge_fan_speed": [
-        "75"
+        "45"
     ],
+    "is_custom_defined": "0",
     "name": "Paramount 3D Iron Red ABS - Callibrated - MMU",
     "nozzle_temperature": [
-        "275"
+        "270"
     ],
     "nozzle_temperature_initial_layer": [
-        "275"
+        "270"
     ],
     "nozzle_temperature_range_high": [
         "280"
@@ -120,7 +121,7 @@
         "245"
     ],
     "overhang_fan_speed": [
-        "80"
+        "50"
     ],
     "reduce_fan_stop_start_freq": [
         "0"
