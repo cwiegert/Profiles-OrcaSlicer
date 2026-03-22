@@ -103,9 +103,6 @@
     ],
     "from": "User",
     "inherits": "Generic ABS @Elegoo",
-    "internal_bridge_fan_speed": [
-        "45"
-    ],
     "is_custom_defined": "0",
     "name": "Paramount 3D Iron Red ABS - Callibrated - MMU",
     "nozzle_temperature": [
@@ -121,7 +118,7 @@
         "245"
     ],
     "overhang_fan_speed": [
-        "75"
+        "85"
     ],
     "reduce_fan_stop_start_freq": [
         "0"
