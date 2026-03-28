@@ -6,7 +6,7 @@
     "bridge_speed": "100",
     "brim_ears_detection_length": "0.5",
     "brim_ears_max_angle": "88",
-    "brim_object_gap": "0.25",
+    "brim_object_gap": "0.15",
     "brim_type": "no_brim",
     "brim_width": "6",
     "default_acceleration": "20000",
