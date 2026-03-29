@@ -76,9 +76,6 @@
     ],
     "from": "User",
     "inherits": "Generic ABS @Elegoo",
-    "internal_bridge_fan_speed": [
-        "35"
-    ],
     "name": "SUNLU - Clear ABS - Callibrated - MMU",
     "nozzle_temperature": [
         "270"
@@ -93,7 +90,7 @@
         "260"
     ],
     "overhang_fan_speed": [
-        "35"
+        "80"
     ],
     "overhang_fan_threshold": [
         "10%"
