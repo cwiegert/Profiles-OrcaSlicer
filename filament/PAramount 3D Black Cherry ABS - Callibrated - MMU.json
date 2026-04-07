@@ -72,7 +72,7 @@
         "99.5%"
     ],
     "filament_start_gcode": [
-        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.03\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
+        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.04\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
     ],
     "filament_unloading_speed": [
         "0"
