@@ -67,7 +67,7 @@
         "10"
     ],
     "fan_min_speed": [
-        "5"
+        "10"
     ],
     "filament_cooling_final_speed": [
         "0"
@@ -242,7 +242,7 @@
         "220"
     ],
     "overhang_fan_speed": [
-        "25"
+        "80"
     ],
     "overhang_fan_threshold": [
         "10%"
@@ -275,7 +275,7 @@
         "70"
     ],
     "support_material_interface_fan_speed": [
-        "10"
+        "-1"
     ],
     "temperature_vitrification": [
         "220"
