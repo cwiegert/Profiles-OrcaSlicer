@@ -111,7 +111,10 @@
         "245"
     ],
     "overhang_fan_speed": [
-        "100"
+        "90"
+    ],
+    "overhang_fan_threshold": [
+        "50%"
     ],
     "reduce_fan_stop_start_freq": [
         "0"
