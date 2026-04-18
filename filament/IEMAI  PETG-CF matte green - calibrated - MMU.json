@@ -178,7 +178,7 @@
         "0"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_FILAMENT_OFFSET OFFSET=0.02\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=50"
+        "; filament start gcode\n;SET_FILAMENT_OFFSET OFFSET=0.02\n;SET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=50\nset_gcode_offset z_adjust=0.07"
     ],
     "filament_toolchange_delay": [
         "0"
