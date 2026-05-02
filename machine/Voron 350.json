@@ -91,6 +91,9 @@
     "retract_lift_below": [
         "284"
     ],
+    "retract_when_changing_layer": [
+        "0"
+    ],
     "retraction_minimum_travel": [
         "3"
     ],
@@ -103,6 +106,9 @@
         "6"
     ],
     "version": "2.1.0.0",
+    "wipe": [
+        "0"
+    ],
     "wipe_distance": [
         "0.5"
     ],
