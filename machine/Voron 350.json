@@ -70,7 +70,9 @@
     "machine_tool_change_time": "1.49",
     "machine_unload_filament_time": "33.6",
     "name": "Voron 350",
-    "nozzle_volume": "50",
+    "nozzle_volume": [
+        "50"
+    ],
     "parking_pos_retraction": "0",
     "print_host": "voronpi.local:81",
     "printable_area": [
@@ -80,6 +82,13 @@
         "0x350"
     ],
     "printable_height": "350",
+    "printer_agent": "orca",
+    "printer_extruder_id": [
+        "1"
+    ],
+    "printer_extruder_variant": [
+        "Direct Drive Standard"
+    ],
     "printer_settings_id": "Voron 350",
     "purge_in_prime_tower": "0",
     "retract_before_wipe": [
