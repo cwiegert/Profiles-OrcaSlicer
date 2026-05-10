@@ -35,6 +35,9 @@
     "filament_deretraction_speed": [
         "85"
     ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
     "filament_flow_ratio": [
         "0.9989"
     ],
@@ -75,7 +78,7 @@
         "99.5%"
     ],
     "filament_start_gcode": [
-        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.035\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
+        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.005\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_exhaust\" target=60"
     ],
     "filament_unloading_speed": [
         "0"
