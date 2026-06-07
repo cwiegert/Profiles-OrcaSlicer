@@ -10,7 +10,6 @@
     "fan_speedup_time": "0.5",
     "from": "User",
     "inherits": "Elegoo Neptune 4 Pro (0.4 nozzle)",
-    "is_custom_defined": "0",
     "machine_end_gcode": "PRINT_END\n_SP_PRINT_END",
     "machine_max_acceleration_e": [
         "2000",
@@ -66,6 +65,12 @@
         "235x0",
         "235x235",
         "0x235"
+    ],
+    "printer_extruder_id": [
+        "1"
+    ],
+    "printer_extruder_variant": [
+        "Direct Drive Standard"
     ],
     "printer_notes": "245 is too hot for PETG, use 240 max, likely best at 235\n\nChanged out the standard 60x60mm motherboard fan for a quiet nactua 40mm fan, for printing, we will run the 40mm at 100%, and idle it at 50%.   if < 50%, there is not enough power to keep the fan turning",
     "printer_settings_id": "My Goto Printer- Pico MMU",
