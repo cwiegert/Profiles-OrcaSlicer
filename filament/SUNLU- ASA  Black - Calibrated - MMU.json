@@ -280,10 +280,10 @@
     ],
     "name": "SUNLU- ASA  Black - Calibrated - MMU",
     "nozzle_temperature": [
-        "270"
+        "275"
     ],
     "nozzle_temperature_initial_layer": [
-        "270"
+        "275"
     ],
     "nozzle_temperature_range_high": [
         "280"
