@@ -270,7 +270,7 @@
     ],
     "inherits": "Elegoo Generic PETG",
     "internal_bridge_fan_speed": [
-        "-1"
+        "70"
     ],
     "ironing_fan_speed": [
         "-1"
@@ -328,7 +328,7 @@
         "70"
     ],
     "support_material_interface_fan_speed": [
-        "-1"
+        "100"
     ],
     "temperature_vitrification": [
         "220"
