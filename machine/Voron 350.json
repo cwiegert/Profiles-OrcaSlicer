@@ -17,6 +17,7 @@
     "enable_filament_ramming": "0",
     "extra_loading_move": "0",
     "fan_speedup_overhangs": "0",
+    "fan_speedup_time": "0.5",
     "from": "User",
     "inherits": "Elegoo Neptune 4 Pro (0.4 nozzle)",
     "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\n_MMU_UPDATE_HEIGHT\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num}          ; For pause at layer functionality and better print stats\nLAYER_CHANGE_OFFSET_CHECK LAYER_NUM={layer_num}\n",
