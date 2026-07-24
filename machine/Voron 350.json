@@ -81,7 +81,7 @@
         "50"
     ],
     "parking_pos_retraction": "0",
-    "print_host": "voronpi.local:81",
+    "print_host": "voronklipper.local:81",
     "printable_area": [
         "0x0",
         "347x0",
