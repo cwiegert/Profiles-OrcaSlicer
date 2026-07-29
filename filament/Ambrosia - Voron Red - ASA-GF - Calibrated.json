@@ -91,7 +91,7 @@
         "26"
     ],
     "filament_density": [
-        "1.27"
+        "1.1"
     ],
     "filament_deretraction_speed": [
         "75"
@@ -196,10 +196,10 @@
         "Ambrosia - Voron Red - ASA-GF - Calibrated"
     ],
     "filament_shrink": [
-        "99.95%"
+        "99.35%"
     ],
     "filament_shrinkage_compensation_z": [
-        "99.95%"
+        "99.45%"
     ],
     "filament_soluble": [
         "0"
