@@ -260,10 +260,10 @@
         "0"
     ],
     "hot_plate_temp": [
-        "105"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "105"
+        "100"
     ],
     "idle_temperature": [
         "0"
@@ -340,10 +340,10 @@
         "40"
     ],
     "textured_plate_temp": [
-        "105"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
-        "105"
+        "100"
     ],
     "version": "2.1.0.0",
     "volumetric_speed_coefficients": [
