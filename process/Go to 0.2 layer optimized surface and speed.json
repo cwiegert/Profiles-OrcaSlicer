@@ -10,7 +10,7 @@
     "brim_object_gap": "0.2",
     "brim_type": "no_brim",
     "brim_width": "6",
-    "default_acceleration": "13000",
+    "default_acceleration": "15000",
     "default_jerk": "13",
     "dont_filter_internal_bridges": "nofilter",
     "elefant_foot_compensation": "0.2",
