@@ -316,7 +316,7 @@
         "1"
     ],
     "slow_down_layer_time": [
-        "0"
+        "5"
     ],
     "slow_down_min_speed": [
         "25"
