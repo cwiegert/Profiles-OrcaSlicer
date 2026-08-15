@@ -211,7 +211,7 @@
         "0"
     ],
     "filament_start_gcode": [
-        "; Filament gcode\nset_gcode_offset z_adjust=0.055 move=1"
+        "; Filament gcode\nset_gcode_offset z_adjust=0.07 move=1"
     ],
     "filament_toolchange_delay": [
         "0"
