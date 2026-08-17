@@ -88,7 +88,7 @@
         "0"
     ],
     "filament_cost": [
-        "26"
+        "56.99"
     ],
     "filament_density": [
         "1.27"
@@ -196,10 +196,10 @@
         "Siraya Tech - PPA-CF - White - Calibrated - MMU"
     ],
     "filament_shrink": [
-        "99.95%"
+        "100%"
     ],
     "filament_shrinkage_compensation_z": [
-        "99.95%"
+        "100%"
     ],
     "filament_soluble": [
         "0"
