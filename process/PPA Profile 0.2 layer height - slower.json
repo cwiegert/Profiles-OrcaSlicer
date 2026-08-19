@@ -51,9 +51,9 @@
     "outer_wall_jerk": "13",
     "outer_wall_line_width": "0.5",
     "outer_wall_speed": "200",
-    "overhang_2_4_speed": "125",
-    "overhang_3_4_speed": "75",
-    "overhang_4_4_speed": "50",
+    "overhang_2_4_speed": "75",
+    "overhang_3_4_speed": "50",
+    "overhang_4_4_speed": "30",
     "prime_tower_width": "40",
     "prime_volume": "90",
     "print_extruder_id": [
