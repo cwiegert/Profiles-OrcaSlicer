@@ -16,7 +16,7 @@
     ],
     "enable_filament_ramming": "0",
     "extra_loading_move": "0",
-    "fan_speedup_overhangs": "0",
+    "fan_kickstart": "0.5",
     "fan_speedup_time": "0.5",
     "from": "User",
     "inherits": "Elegoo Neptune 4 Pro (0.4 nozzle)",
