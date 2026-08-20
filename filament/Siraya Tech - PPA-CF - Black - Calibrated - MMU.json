@@ -67,7 +67,7 @@
         "10"
     ],
     "fan_min_speed": [
-        "10"
+        "15"
     ],
     "filament_adaptive_volumetric_speed": [
         "0"
@@ -211,7 +211,7 @@
         "0"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_FILAMENT_OFFSET OFFSET=0.04\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_temp\" target=60"
+        "; filament start gcode\nSET_FILAMENT_OFFSET OFFSET=0.05\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_temp\" target=60"
     ],
     "filament_toolchange_delay": [
         "0"
@@ -295,7 +295,7 @@
         "50"
     ],
     "overhang_fan_threshold": [
-        "10%"
+        "25%"
     ],
     "pellet_flow_coefficient": [
         "0.4157"
