@@ -53,7 +53,7 @@
     "outer_wall_line_width": "0.5",
     "outer_wall_speed": "225",
     "overhang_1_4_speed": "150",
-    "overhang_2_4_speed": "125",
+    "overhang_2_4_speed": "100",
     "overhang_3_4_speed": "75",
     "overhang_4_4_speed": "30",
     "prime_tower_width": "40",

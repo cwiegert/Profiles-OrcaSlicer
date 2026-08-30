@@ -211,7 +211,7 @@
         "0"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_FILAMENT_OFFSET OFFSET=0.08\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_temp\" target=60"
+        "; filament start gcode\nSET_FILAMENT_OFFSET OFFSET=0.05\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_temp\" target=60"
     ],
     "filament_toolchange_delay": [
         "0"
@@ -270,7 +270,7 @@
     ],
     "inherits": "Elegoo Generic PETG",
     "internal_bridge_fan_speed": [
-        "75"
+        "85"
     ],
     "ironing_fan_speed": [
         "-1"
@@ -292,7 +292,7 @@
         "220"
     ],
     "overhang_fan_speed": [
-        "80"
+        "95"
     ],
     "overhang_fan_threshold": [
         "25%"
