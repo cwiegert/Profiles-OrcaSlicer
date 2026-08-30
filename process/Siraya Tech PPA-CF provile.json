@@ -45,6 +45,7 @@
     "internal_solid_infill_speed": "275",
     "ironing_flow": "10%",
     "ironing_speed": "100",
+    "is_infill_first": "1",
     "line_width": "0.45",
     "name": "Siraya Tech PPA-CF provile",
     "outer_wall_acceleration": "12000",
@@ -53,8 +54,8 @@
     "outer_wall_speed": "225",
     "overhang_1_4_speed": "150",
     "overhang_2_4_speed": "125",
-    "overhang_3_4_speed": "100",
-    "overhang_4_4_speed": "50",
+    "overhang_3_4_speed": "75",
+    "overhang_4_4_speed": "30",
     "prime_tower_width": "40",
     "prime_volume": "90",
     "print_extruder_id": [
@@ -114,6 +115,7 @@
     "tree_support_top_rate": "50%",
     "tree_support_wall_count": "2",
     "version": "2.1.0.0",
+    "wall_loops": "6",
     "wall_transition_length": "50%",
     "wipe_on_loops": "1",
     "wipe_tower_max_purge_speed": "100"
