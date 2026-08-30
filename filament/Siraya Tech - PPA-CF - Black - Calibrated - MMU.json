@@ -270,7 +270,7 @@
     ],
     "inherits": "Elegoo Generic PETG",
     "internal_bridge_fan_speed": [
-        "40"
+        "75"
     ],
     "ironing_fan_speed": [
         "-1"
@@ -292,7 +292,7 @@
         "220"
     ],
     "overhang_fan_speed": [
-        "40"
+        "80"
     ],
     "overhang_fan_threshold": [
         "25%"
@@ -316,7 +316,7 @@
         "0"
     ],
     "slow_down_layer_time": [
-        "15"
+        "12"
     ],
     "slow_down_min_speed": [
         "15"
