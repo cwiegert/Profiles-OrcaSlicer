@@ -270,7 +270,7 @@
     ],
     "inherits": "Elegoo Generic PETG",
     "internal_bridge_fan_speed": [
-        "50"
+        "40"
     ],
     "ironing_fan_speed": [
         "-1"
