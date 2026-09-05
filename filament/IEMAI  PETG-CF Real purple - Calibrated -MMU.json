@@ -67,7 +67,7 @@
         "20"
     ],
     "fan_min_speed": [
-        "30"
+        "15"
     ],
     "filament_adaptive_volumetric_speed": [
         "0"
@@ -211,7 +211,7 @@
         "0"
     ],
     "filament_start_gcode": [
-        "; Filament gcode\nset_gcode_offset z_adjust=0.05"
+        "; Filament gcode\nset_gcode_offset z_adjust=0.05 move=1"
     ],
     "filament_toolchange_delay": [
         "0"
