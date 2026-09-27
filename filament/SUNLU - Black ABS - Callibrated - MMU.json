@@ -63,7 +63,7 @@
         "99.5%"
     ],
     "filament_start_gcode": [
-        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.006\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_temp\" target=65"
+        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.011\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_temp\" target=60"
     ],
     "filament_unloading_speed": [
         "0"
@@ -81,10 +81,10 @@
     "inherits": "Generic ABS @Elegoo",
     "name": "SUNLU - Black ABS - Callibrated - MMU",
     "nozzle_temperature": [
-        "272"
+        "270"
     ],
     "nozzle_temperature_initial_layer": [
-        "272"
+        "270"
     ],
     "nozzle_temperature_range_high": [
         "280"
