@@ -64,10 +64,10 @@
         "25"
     ],
     "fan_max_speed": [
-        "5"
+        "10"
     ],
     "fan_min_speed": [
-        "5"
+        "10"
     ],
     "filament_adaptive_volumetric_speed": [
         "0"
@@ -270,7 +270,7 @@
     ],
     "inherits": "Elegoo Generic PETG",
     "internal_bridge_fan_speed": [
-        "60"
+        "70"
     ],
     "ironing_fan_speed": [
         "-1"
@@ -292,7 +292,7 @@
         "220"
     ],
     "overhang_fan_speed": [
-        "25"
+        "40"
     ],
     "overhang_fan_threshold": [
         "10%"
