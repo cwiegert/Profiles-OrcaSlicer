@@ -280,10 +280,10 @@
     ],
     "name": "Siraya Tech - PPA-CF - White - Calibrated - MMU",
     "nozzle_temperature": [
-        "300"
+        "305"
     ],
     "nozzle_temperature_initial_layer": [
-        "300"
+        "305"
     ],
     "nozzle_temperature_range_high": [
         "260"
