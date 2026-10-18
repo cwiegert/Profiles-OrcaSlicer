@@ -260,17 +260,17 @@
         "0"
     ],
     "hot_plate_temp": [
-        "105"
+        "95"
     ],
     "hot_plate_temp_initial_layer": [
-        "105"
+        "100"
     ],
     "idle_temperature": [
         "0"
     ],
     "inherits": "Elegoo Generic PETG",
     "internal_bridge_fan_speed": [
-        "90"
+        "60"
     ],
     "ironing_fan_speed": [
         "-1"
@@ -292,10 +292,10 @@
         "220"
     ],
     "overhang_fan_speed": [
-        "100"
+        "60"
     ],
     "overhang_fan_threshold": [
-        "10%"
+        "25%"
     ],
     "pellet_flow_coefficient": [
         "0.4157"
@@ -340,10 +340,10 @@
         "40"
     ],
     "textured_plate_temp": [
-        "105"
+        "95"
     ],
     "textured_plate_temp_initial_layer": [
-        "105"
+        "100"
     ],
     "version": "2.1.0.0",
     "volumetric_speed_coefficients": [
