@@ -1,6 +1,6 @@
 {
-    "bed_custom_model": "/Users/corywiegert/SynologyDrive/Voron 2.4 Build/Orca Bed Logo/Voron_350_build_plate.stl",
-    "bed_custom_texture": "/Users/corywiegert/SynologyDrive/Voron 2.4 Build/Orca Bed Logo/voron_logo.png",
+    "bed_custom_model": "/Users/corywiegert/SynologyDrive/Voron_350_build_plate.stl",
+    "bed_custom_texture": "/Users/corywiegert/SynologyDrive/voron_logo.png",
     "bed_exclude_area": [
         "0x0",
         "5x350"
