@@ -260,10 +260,10 @@
         "0"
     ],
     "hot_plate_temp": [
-        "75"
+        "80"
     ],
     "hot_plate_temp_initial_layer": [
-        "75"
+        "80"
     ],
     "idle_temperature": [
         "0"
@@ -280,10 +280,10 @@
     ],
     "name": "Siraya Tech - PPA-CF - Black - Calibrated - MMU",
     "nozzle_temperature": [
-        "295"
+        "300"
     ],
     "nozzle_temperature_initial_layer": [
-        "295"
+        "300"
     ],
     "nozzle_temperature_range_high": [
         "260"
@@ -340,10 +340,10 @@
         "40"
     ],
     "textured_plate_temp": [
-        "75"
+        "80"
     ],
     "textured_plate_temp_initial_layer": [
-        "75"
+        "80"
     ],
     "version": "2.1.0.0",
     "volumetric_speed_coefficients": [
