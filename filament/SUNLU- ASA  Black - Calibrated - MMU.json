@@ -260,7 +260,7 @@
         "0"
     ],
     "hot_plate_temp": [
-        "90"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
         "100"
@@ -340,7 +340,7 @@
         "40"
     ],
     "textured_plate_temp": [
-        "90"
+        "100"
     ],
     "textured_plate_temp_initial_layer": [
         "100"
