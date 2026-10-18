@@ -211,7 +211,7 @@
         "0"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nSET_FILAMENT_OFFSET OFFSET=-0.015\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_temp\" target=60"
+        "; filament start gcode\nSET_FILAMENT_OFFSET OFFSET=-0.012\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_temp\" target=60"
     ],
     "filament_toolchange_delay": [
         "0"
@@ -260,7 +260,7 @@
         "0"
     ],
     "hot_plate_temp": [
-        "100"
+        "90"
     ],
     "hot_plate_temp_initial_layer": [
         "100"
@@ -340,7 +340,7 @@
         "40"
     ],
     "textured_plate_temp": [
-        "100"
+        "90"
     ],
     "textured_plate_temp_initial_layer": [
         "100"
