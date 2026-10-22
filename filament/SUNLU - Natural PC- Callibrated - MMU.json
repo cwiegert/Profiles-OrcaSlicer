@@ -63,7 +63,7 @@
         "99.429%"
     ],
     "filament_start_gcode": [
-        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=-0.005\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_temp\" target=70"
+        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=-0.008\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_temp\" target=70"
     ],
     "filament_type": [
         "PC"
