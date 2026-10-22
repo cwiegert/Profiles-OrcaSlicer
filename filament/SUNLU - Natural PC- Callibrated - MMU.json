@@ -90,10 +90,10 @@
     ],
     "name": "SUNLU - Natural PC- Callibrated - MMU",
     "nozzle_temperature": [
-        "300"
+        "285"
     ],
     "nozzle_temperature_initial_layer": [
-        "300"
+        "285"
     ],
     "nozzle_temperature_range_high": [
         "300"
