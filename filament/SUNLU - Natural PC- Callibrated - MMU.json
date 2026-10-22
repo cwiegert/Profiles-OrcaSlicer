@@ -86,7 +86,7 @@
     "from": "User",
     "inherits": "Generic ABS @Elegoo",
     "internal_bridge_fan_speed": [
-        "80"
+        "100"
     ],
     "name": "SUNLU - Natural PC- Callibrated - MMU",
     "nozzle_temperature": [
