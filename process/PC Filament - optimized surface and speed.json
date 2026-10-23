@@ -47,11 +47,12 @@
     "is_infill_first": "1",
     "line_width": "0.45",
     "name": "PC Filament - optimized surface and speed",
-    "outer_wall_acceleration": "25000",
+    "outer_wall_acceleration": "15000",
     "outer_wall_jerk": "13",
     "outer_wall_line_width": "0.5",
     "outer_wall_speed": "275",
     "overhang_1_4_speed": "75",
+    "overhang_3_4_speed": "25",
     "prime_tower_width": "40",
     "prime_volume": "90",
     "print_extruder_id": [
