@@ -67,7 +67,7 @@
         "10"
     ],
     "fan_min_speed": [
-        "5"
+        "10"
     ],
     "filament_adaptive_volumetric_speed": [
         "0"
@@ -139,7 +139,7 @@
         "nil"
     ],
     "filament_max_volumetric_speed": [
-        "24"
+        "30"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "0"
