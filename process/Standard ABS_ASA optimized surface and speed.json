@@ -47,7 +47,7 @@
     "is_infill_first": "1",
     "line_width": "0.45",
     "name": "Standard ABS_ASA optimized surface and speed",
-    "outer_wall_acceleration": "25000",
+    "outer_wall_acceleration": "15000",
     "outer_wall_jerk": "13",
     "outer_wall_line_width": "0.5",
     "outer_wall_speed": "275",

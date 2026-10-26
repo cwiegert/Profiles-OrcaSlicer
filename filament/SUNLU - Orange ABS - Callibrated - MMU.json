@@ -60,10 +60,7 @@
         "SUNLU - Orange ABS - Callibrated - MMU"
     ],
     "filament_shrink": [
-        "99.95%"
-    ],
-    "filament_shrinkage_compensation_z": [
-        "99.98%"
+        "99.93%"
     ],
     "filament_start_gcode": [
         "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=0.00\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_temp\" target=60\n"
