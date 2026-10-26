@@ -79,6 +79,9 @@
     ],
     "from": "User",
     "inherits": "Generic ABS @Elegoo",
+    "internal_bridge_fan_speed": [
+        "60"
+    ],
     "name": "SUNLU - Orange ABS - Callibrated - MMU",
     "nozzle_temperature": [
         "270"
@@ -93,7 +96,7 @@
         "260"
     ],
     "overhang_fan_speed": [
-        "90"
+        "70"
     ],
     "pressure_advance": [
         "0.025"
@@ -103,6 +106,9 @@
     ],
     "slow_down_layer_time": [
         "5"
+    ],
+    "support_material_interface_fan_speed": [
+        "80"
     ],
     "version": "2.3.0.1"
 }
