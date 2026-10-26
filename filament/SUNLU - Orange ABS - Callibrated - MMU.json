@@ -84,10 +84,10 @@
     "inherits": "Generic ABS @Elegoo",
     "name": "SUNLU - Orange ABS - Callibrated - MMU",
     "nozzle_temperature": [
-        "272"
+        "270"
     ],
     "nozzle_temperature_initial_layer": [
-        "272"
+        "270"
     ],
     "nozzle_temperature_range_high": [
         "280"
