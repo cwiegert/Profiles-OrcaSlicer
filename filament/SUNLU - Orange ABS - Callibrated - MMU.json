@@ -95,6 +95,9 @@
     "overhang_fan_speed": [
         "90"
     ],
+    "pressure_advance": [
+        "0.025"
+    ],
     "reduce_fan_stop_start_freq": [
         "0"
     ],
