@@ -1,0 +1,114 @@
+{
+    "chamber_temperature": [
+        "60"
+    ],
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "default_filament_colour": [
+        "#485B2F"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_cooling_layer_time": [
+        "25"
+    ],
+    "fan_max_speed": [
+        "10"
+    ],
+    "fan_min_speed": [
+        "10"
+    ],
+    "filament_cooling_final_speed": [
+        "0"
+    ],
+    "filament_cooling_initial_speed": [
+        "0"
+    ],
+    "filament_cooling_moves": [
+        "0"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_flow_ratio": [
+        "0.9979"
+    ],
+    "filament_loading_speed": [
+        "0"
+    ],
+    "filament_loading_speed_start": [
+        "0"
+    ],
+    "filament_max_volumetric_speed": [
+        "35"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+        "0"
+    ],
+    "filament_multitool_ramming_flow": [
+        "0"
+    ],
+    "filament_multitool_ramming_volume": [
+        "0"
+    ],
+    "filament_retract_when_changing_layer": [
+        "0"
+    ],
+    "filament_settings_id": [
+        "SUNLU - Olive Green ABS - Callibrated - MMU"
+    ],
+    "filament_shrink": [
+        "99.63%"
+    ],
+    "filament_start_gcode": [
+        "; Filament gcode\n\nSET_FILAMENT_OFFSET OFFSET=-0.00\nSET_TEMPERATURE_FAN_TARGET temperature_fan=\"chamber_temp\" target=60\n"
+    ],
+    "filament_unloading_speed": [
+        "0"
+    ],
+    "filament_unloading_speed_start": [
+        "0"
+    ],
+    "filament_vendor": [
+        "Sunlu"
+    ],
+    "filament_wipe": [
+        "0"
+    ],
+    "from": "User",
+    "inherits": "Generic ABS @Elegoo",
+    "internal_bridge_fan_speed": [
+        "60"
+    ],
+    "name": "SUNLU - Olive Green ABS - Callibrated - MMU",
+    "nozzle_temperature": [
+        "270"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "270"
+    ],
+    "nozzle_temperature_range_high": [
+        "280"
+    ],
+    "nozzle_temperature_range_low": [
+        "260"
+    ],
+    "overhang_fan_speed": [
+        "80"
+    ],
+    "pressure_advance": [
+        "0.025"
+    ],
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "slow_down_layer_time": [
+        "5"
+    ],
+    "support_material_interface_fan_speed": [
+        "80"
+    ],
+    "version": "2.3.0.1"
+}
