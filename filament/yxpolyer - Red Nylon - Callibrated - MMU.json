@@ -15,7 +15,7 @@
         "25"
     ],
     "fan_max_speed": [
-        "10"
+        "15"
     ],
     "fan_min_speed": [
         "10"
@@ -86,7 +86,7 @@
     "from": "User",
     "inherits": "Generic ABS @Elegoo",
     "internal_bridge_fan_speed": [
-        "60"
+        "80"
     ],
     "name": "yxpolyer - Red Nylon - Callibrated - MMU",
     "nozzle_temperature": [
@@ -102,7 +102,7 @@
         "260"
     ],
     "overhang_fan_speed": [
-        "80"
+        "100"
     ],
     "pressure_advance": [
         "0.025"
