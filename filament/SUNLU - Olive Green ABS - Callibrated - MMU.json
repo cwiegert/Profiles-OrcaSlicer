@@ -80,7 +80,7 @@
     "from": "User",
     "inherits": "Generic ABS @Elegoo",
     "internal_bridge_fan_speed": [
-        "60"
+        "100"
     ],
     "name": "SUNLU - Olive Green ABS - Callibrated - MMU",
     "nozzle_temperature": [
@@ -101,14 +101,11 @@
     "pressure_advance": [
         "0.025"
     ],
-    "reduce_fan_stop_start_freq": [
-        "0"
-    ],
     "slow_down_layer_time": [
         "8"
     ],
     "support_material_interface_fan_speed": [
-        "80"
+        "100"
     ],
     "version": "2.3.0.1"
 }

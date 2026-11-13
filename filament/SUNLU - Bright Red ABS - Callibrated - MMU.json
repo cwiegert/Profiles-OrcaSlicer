@@ -15,7 +15,7 @@
         "25"
     ],
     "fan_max_speed": [
-        "10"
+        "15"
     ],
     "fan_min_speed": [
         "10"
@@ -82,6 +82,9 @@
     ],
     "from": "User",
     "inherits": "Generic ABS @Elegoo",
+    "internal_bridge_fan_speed": [
+        "100"
+    ],
     "name": "SUNLU - Bright Red ABS - Callibrated - MMU",
     "nozzle_temperature": [
         "270"
@@ -96,13 +99,10 @@
         "260"
     ],
     "overhang_fan_speed": [
-        "90"
-    ],
-    "reduce_fan_stop_start_freq": [
-        "0"
+        "100"
     ],
     "slow_down_layer_time": [
-        "10"
+        "8"
     ],
     "version": "2.3.0.1"
 }
